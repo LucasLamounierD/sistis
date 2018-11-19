@@ -1,2 +1,2 @@
-# sistis
-Sistema de Integração de Serviços - UNIFEI
+Easy Fix - UNIFEI
+Sistema de genrenciamento de serviços básicos
