@@ -1,0 +1,328 @@
+{
+  "id": "423aac31-d5cf-4eaa-9c2d-165f140eee0a",
+  "version": "1.1",
+  "name": "Release03",
+  "url": "http://localhost/EasyFix---Project/home",
+  "tests": [{
+    "id": "fad51e0b-583b-4050-910e-04335bed82ab",
+    "name": "Calendario/Show/Edit",
+    "commands": [{
+      "id": "26848124-1865-49b3-8fac-282197cd5591",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/EasyFix---Project/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1595a31-75e5-43fc-8240-dacc1760b7b9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f98308d0-db66-40f2-92a8-b7fb62a9fa16",
+      "comment": "",
+      "command": "click",
+      "target": "css=div.container-fluid",
+      "targets": [
+        ["css=div.container-fluid", "css"],
+        ["css=.container-fluid", "css:finder"],
+        ["xpath=//div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4bda9bc2-21a6-45a7-a0c8-89c375d239c1",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.hamburger.is-closed",
+      "targets": [
+        ["css=button.hamburger.is-closed", "css"],
+        ["css=.hamburger", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "657eea30-b39c-42ca-8d2b-dbb3eca98b4a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Calendário",
+      "targets": [
+        ["linkText=Calendário", "linkText"],
+        ["css=li:nth-child(6) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Calendário')]", "xpath:link"],
+        ["xpath=//nav[@id='sidebar-wrapper']/ul/li[6]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/EasyFix---Project/calendario/list']", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a22feae-2a9b-4bc8-a858-2848cfa5a0e6",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(5)",
+      "targets": [
+        ["css=a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(@href, '/EasyFix---Project/servico/form/9')]", "xpath:href"],
+        ["xpath=//td[5]/a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85d10dc3-f874-4a73-b221-c6d8c03e5eae",
+      "comment": "",
+      "command": "click",
+      "target": "css=#datetimepicker2 > span.input-group-addon > span.glyphicon.glyphicon-calendar",
+      "targets": [
+        ["css=#datetimepicker2 > span.input-group-addon > span.glyphicon.glyphicon-calendar", "css"],
+        ["css=#datetimepicker2 .glyphicon", "css:finder"],
+        ["xpath=//div[@id='datetimepicker2']/span/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11e3881b-6987-48fe-98a0-fd0c24f08fc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > .day:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(3) > .day:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='datetimepicker2']/div/ul/li/div/div/table/tbody/tr[3]/td", "xpath:idRelative"],
+        ["xpath=//tr[3]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d88d2bbd-50cc-4e54-8b2d-ea1c8db46112",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-primary",
+      "targets": [
+        ["css=button.btn.btn-primary", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@action='submit']", "xpath:attributes"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "72743c53-dadb-45d1-9f2e-6235d3df48ce",
+    "name": "Album/Cadastro/List/Delete",
+    "commands": [{
+      "id": "deb98333-fbae-4b6b-8dc8-21b94ced34a2",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/EasyFix---Project/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f50207ce-be91-40f3-8596-91d49f168ec9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c657861-bd39-4f73-904c-534e658cf237",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.hamburger.is-closed",
+      "targets": [
+        ["css=button.hamburger.is-closed", "css"],
+        ["css=.hamburger", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28f6d015-e4aa-4647-a897-dc298c03b7c7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Meu album",
+      "targets": [
+        ["linkText=Meu album", "linkText"],
+        ["css=li:nth-child(7) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Meu album')]", "xpath:link"],
+        ["xpath=//nav[@id='sidebar-wrapper']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/EasyFix---Project/album/list']", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a901c0ff-0940-4e10-942a-8bc6dba159ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cadastrar",
+      "targets": [
+        ["linkText=Cadastrar", "linkText"],
+        ["css=a.btn.btn-primary", "css"],
+        ["css=.btn-primary", "css:finder"],
+        ["xpath=//a[@href='http://localhost/EasyFix---Project/album/form']", "xpath:href"],
+        ["xpath=//th[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5703a1e-5304-4ad2-ad58-a01bb231ec49",
+      "comment": "",
+      "command": "click",
+      "target": "name=path",
+      "targets": [
+        ["name=path", "name"],
+        ["css=input[name=\"path\"]", "css"],
+        ["css=.form-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='path']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39d93418-2b6a-4665-8425-3f8a974c271b",
+      "comment": "",
+      "command": "type",
+      "target": "name=path",
+      "targets": [
+        ["name=path", "name"],
+        ["css=input[name=\"path\"]", "css"],
+        ["css=.form-group:nth-child(3) > input", "css:finder"],
+        ["xpath=//input[@name='path']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "C:\\fakepath\\kisspng-pricing-price-management-business-cost-strategy-5ac94ea7a419d9.7570098115231423116722.png"
+    }, {
+      "id": "de5aa636-2163-4569-ba88-3ca3c8de9e6d",
+      "comment": "",
+      "command": "click",
+      "target": "name=title",
+      "targets": [
+        ["name=title", "name"],
+        ["css=input[name=\"title\"]", "css"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='title']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "337c85da-8faa-4c5d-8319-8113f867d47e",
+      "comment": "",
+      "command": "type",
+      "target": "name=title",
+      "targets": [
+        ["name=title", "name"],
+        ["css=input[name=\"title\"]", "css"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='title']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "IMGTESTE"
+    }, {
+      "id": "85f0873f-4f86-4c27-8932-d6a5cf3de00f",
+      "comment": "",
+      "command": "click",
+      "target": "name=descr",
+      "targets": [
+        ["name=descr", "name"],
+        ["css=textarea[name=\"descr\"]", "css"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "086b4882-efa3-4d04-9149-df0631ee0d72",
+      "comment": "",
+      "command": "type",
+      "target": "name=descr",
+      "targets": [
+        ["name=descr", "name"],
+        ["css=textarea[name=\"descr\"]", "css"],
+        ["css=textarea", "css:finder"],
+        ["xpath=//textarea[@name='descr']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "                 uma img teste     \\n                        "
+    }, {
+      "id": "8bf9aaf3-01d0-487c-84b1-ab2546aef93f",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.btn.btn-success",
+      "targets": [
+        ["css=button.btn.btn-success", "css"],
+        ["css=.btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7138c101-8101-4355-aacb-50e2867645fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(7) .glyphicon",
+      "targets": [
+        ["css=.row:nth-child(7) .glyphicon", "css:finder"],
+        ["xpath=//div[4]/div[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ceed9c0-bba1-4904-a77a-aa674052ca02",
+    "name": "relatorio",
+    "commands": [{
+      "id": "a05b7147-ecd1-46fe-9cb7-e037e11406e8",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost/EasyFix---Project/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8226dea3-253f-4844-afc0-fe4e9ef8df13",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "788139de-a889-4f77-b2d2-2fde2b34fc3c",
+      "comment": "",
+      "command": "click",
+      "target": "css=button.hamburger.is-closed",
+      "targets": [
+        ["css=button.hamburger.is-closed", "css"],
+        ["css=.hamburger", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f0348e-4228-495a-addf-6cb9aa534374",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Relatório Serviços",
+      "targets": [
+        ["linkText=Relatório Serviços", "linkText"],
+        ["css=li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Relatório Serviços')]", "xpath:link"],
+        ["xpath=//nav[@id='sidebar-wrapper']/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost/EasyFix---Project/rel/serviços']", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc1c4417-ac32-4a79-962d-b80db3ef5330",
+      "comment": "",
+      "command": "click",
+      "target": "css=.highcharts-point-hover",
+      "targets": [
+        ["css=.highcharts-point-hover", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2e6f5ae9-59fb-4a65-b2e1-14bef7c04bce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/EasyFix---Project/home"],
+  "plugins": []
+}
